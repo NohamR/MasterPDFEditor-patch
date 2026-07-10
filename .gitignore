@@ -1,0 +1,4 @@
+*.dylib
+*.a
+!tinyhook/*.a
+.DS_Store

@@ -1,0 +1,3 @@
+[submodule "tinyhook"]
+	path = tinyhook
+	url = https://github.com/Antibioticss/tinyhook.git
