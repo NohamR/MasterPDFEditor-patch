@@ -11,7 +11,7 @@ The dylib hooks `MainWindow::ValidateLicense` to force license flags, then calls
 ## Build
 
 ```sh
-git clone --recurse-submodules https://github.com/nohamelin/MasterPDFEditor-patch.git
+git clone --recurse-submodules https://github.com/NohamR/MasterPDFEditor-patch.git
 cd MasterPDFEditor-patch
 make
 ```
