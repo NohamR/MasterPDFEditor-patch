@@ -20,8 +20,18 @@ Output: `MasterPDFEditor.dylib`
 
 ## Usage
 
+To use the dylib, you have two options:
+
+**Option 1 — DYLD_INSERT_LIBRARIES** (requires SIP to be turned off; refer to [Apple's documentation](https://developer.apple.com/documentation/security/disabling-and-enabling-system-integrity-protection)):
+
 ```sh
 DYLD_INSERT_LIBRARIES=/path/to/MasterPDFEditor.dylib '/Applications/Master PDF Editor.app/Contents/MacOS/Master PDF Editor'
+```
+
+**Option 2 — Permanent injection** (uses [optool](https://github.com/alexzielenski/optool) to inject the dylib into the app bundle):
+
+```sh
+./inject.sh /path/to/MasterPDFEditor.dylib '/Applications/Master PDF Editor.app'
 ```
 
 ## Analysis
