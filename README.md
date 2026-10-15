@@ -1,6 +1,6 @@
 # Master PDF Editor Patch
 
-Bypasses license validation for **Master PDF Editor 5.9.98** using inline hooking via [tinyhook](https://github.com/Antibioticss/tinyhook).
+Bypasses license validation for **Master PDF Editor 5.9.99** using inline hooking via [tinyhook](https://github.com/Antibioticss/tinyhook).
 
 Supports both **Apple Silicon (arm64)** and **Intel (x86_64)** architectures.
 
@@ -36,4 +36,4 @@ DYLD_INSERT_LIBRARIES=/path/to/MasterPDFEditor.dylib '/Applications/Master PDF E
 
 ## Analysis
 
-Full reverse engineering write-up: [noham.dev](https://noh.am/en/posts/master-pdf-editor-patch-analysis/)
+Full reverse engineering write-up: [noh.am](https://noh.am/en/posts/master-pdf-editor-patch-analysis/)

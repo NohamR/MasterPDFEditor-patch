@@ -3,11 +3,11 @@
 #include "tinyhook/include/tinyhook.h"
 
 #if defined(__arm64__) || defined(__aarch64__)
-#define kValidateLicenseAddress 0x10034D4F0
-#define kSetRegProgramAddress   0x10026C430
+#define kValidateLicenseAddress 0x10034E5B8
+#define kSetRegProgramAddress   0x10026D1AC
 #elif defined(__x86_64__)
-#define kValidateLicenseAddress 0x10038E2D0
-#define kSetRegProgramAddress   0x100296D90
+#define kValidateLicenseAddress 0x10038F630
+#define kSetRegProgramAddress   0x100297DA0
 #endif
 
 #define kGuardFlagOffset        107

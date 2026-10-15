@@ -2,3 +2,6 @@
 *.a
 !tinyhook/*.a
 .DS_Store
+/src
+/build
+.vscode/settings.json
